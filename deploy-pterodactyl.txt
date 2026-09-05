@@ -1,0 +1,72 @@
+ZCORP TELEGRAM BOT
+PTERODACTYL SETUP
+=================
+
+STEP 1
+Create your Node.js server in Pterodactyl.
+
+STEP 2
+Use Node.js 20 or newer.
+
+STEP 3
+Upload these files:
+
+index.js
+package.json
+.env
+.env.example
+.gitignore
+README.md
+deploy-pterodactyl.txt
+
+STEP 4
+Open the Pterodactyl console.
+
+STEP 5
+Run:
+
+npm install
+
+STEP 6
+After installation finishes, run:
+
+npm start
+
+STEP 7
+You should see:
+
+🚀 ZCORP Telegram Bot is starting...
+
+STEP 8
+Open your Telegram bot.
+
+Send:
+
+/start
+
+STEP 9
+The bot should show:
+
+JOIN CHANNEL
+JOIN COMMUNITY
+I'VE JOINED — CONTINUE
+
+STEP 10
+Press:
+
+I'VE JOINED — CONTINUE
+
+The bot will open the ZCORP main menu.
+
+IMPORTANT
+The continue button does NOT verify Telegram membership.
+
+GEMINI
+Make sure .env contains:
+
+BOT_TOKEN=YOUR_NEW_TELEGRAM_BOT_TOKEN
+GEMINI_API_KEY=YOUR_GEMINI_API_KEY
+
+Never put your real API keys directly inside index.js.
+
+NEVER upload .env to GitHub.
